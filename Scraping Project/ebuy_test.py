@@ -38,10 +38,10 @@ def scrape_and_insert_ebuy_product(product_query):
             # Create a MySQL connection
             conn = mysql.connector.connect(
                 host="localhost",
-                user="root",
-                password="root",
-                port=3307,
-                database="ebuy"
+                user="Your username of db",
+                password="Your password of database",
+                port="port number",
+                database="database name"
             )
 
             cursor = conn.cursor()
